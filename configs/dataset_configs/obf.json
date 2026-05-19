@@ -1,0 +1,27 @@
+{
+  "dataset_id": "obf",
+  "role": "external_multiclass_stress_test",
+  "raw_dir": "data_raw/obf",
+  "modalities": [
+    "activity",
+    "sleep_proxy",
+    "static"
+  ],
+  "tasks": [
+    "dep_binary",
+    "clinical_vs_control",
+    "obf_5class"
+  ],
+  "download_targets": [
+    {
+      "name": "obf_zip",
+      "url": "https://zenodo.org/records/13754984/files/OBF-Psychiatric%20Dataset.zip?download=1",
+      "filename": "OBF-Psychiatric Dataset.zip",
+      "expected_md5": "6bdd708eae992219cd00eed65aae9351"
+    }
+  ],
+  "official_urls": [
+    "https://doi.org/10.5281/zenodo.13754984",
+    "https://github.com/enriquegit/OBF-Psychiatric-dataset"
+  ]
+}

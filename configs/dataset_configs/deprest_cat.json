@@ -1,0 +1,26 @@
+{
+  "dataset_id": "deprest_cat",
+  "role": "primary_supervised_smartphone",
+  "raw_dir": "data_raw/deprest_cat",
+  "modalities": [
+    "communication",
+    "static"
+  ],
+  "tasks": [
+    "phq9_reg",
+    "gad7_reg",
+    "phq9_cat",
+    "gad7_cat"
+  ],
+  "download_targets": [
+    {
+      "name": "deprest_cat_repo_archive",
+      "url": "https://codeload.github.com/mltlachac/DepreST-CAT/zip/refs/heads/main",
+      "filename": "DepreST-CAT-main.zip"
+    }
+  ],
+  "official_urls": [
+    "https://github.com/mltlachac/DepreST-CAT",
+    "https://emutivo.wpi.edu/index.php/data/"
+  ]
+}

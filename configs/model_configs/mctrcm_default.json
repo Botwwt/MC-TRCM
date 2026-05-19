@@ -1,0 +1,22 @@
+{
+  "model_name": "mctrcm",
+  "concept_dim": 8,
+  "hidden_dim": 32,
+  "encoder_hidden_dim": 16,
+  "recursion_steps": 4,
+  "dropout": 0.1,
+  "activation": "gelu",
+  "use_layernorm": true,
+  "use_dataset_embedding": true,
+  "use_modality_mask": true,
+  "use_concept_bottleneck": true,
+  "sparse_penalty": {
+    "l1": 1e-4,
+    "group": 1e-4
+  },
+  "ssl": {
+    "enabled": false,
+    "masked_reconstruction": true,
+    "contrastive_consistency": true
+  }
+}

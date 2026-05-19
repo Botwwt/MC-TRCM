@@ -1,0 +1,25 @@
+{
+  "dataset_id": "depresjon",
+  "role": "external_actigraphy_stress_test",
+  "raw_dir": "data_raw/depresjon",
+  "modalities": [
+    "activity",
+    "sleep_proxy",
+    "static"
+  ],
+  "tasks": [
+    "madrs_reg",
+    "dep_binary"
+  ],
+  "download_targets": [
+    {
+      "name": "depresjon_zip",
+      "url": "https://datasets.simula.no/downloads/depresjon.zip",
+      "filename": "depresjon.zip"
+    }
+  ],
+  "official_urls": [
+    "https://datasets.simula.no/depresjon/",
+    "https://datasets.simula.no/downloads/depresjon.zip"
+  ]
+}

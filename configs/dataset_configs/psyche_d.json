@@ -1,0 +1,39 @@
+{
+  "dataset_id": "psyche_d",
+  "role": "primary_supervised_wearable",
+  "raw_dir": "data_raw/psyche_d",
+  "modalities": [
+    "activity",
+    "sleep",
+    "symptom_context",
+    "static"
+  ],
+  "tasks": [
+    "phq_change_multiclass",
+    "phq_change_binary"
+  ],
+  "download_targets": [
+    {
+      "name": "psyche_d_parquet",
+      "url": "https://zenodo.org/records/5085146/files/anon_processed_df_parquet?download=1",
+      "filename": "anon_processed_df_parquet",
+      "expected_md5": "a6b21ffbb5fba0600ed494c6ab299cc4"
+    },
+    {
+      "name": "psyche_d_feature_dictionary",
+      "url": "https://zenodo.org/records/5085146/files/Feature%20explanations%20-%20anonymized%20data%20-%20Sheet1.tsv?download=1",
+      "filename": "Feature explanations - anonymized data - Sheet1.tsv",
+      "expected_md5": "2dfadab7595b972b9102fbf7903bb27a"
+    },
+    {
+      "name": "psyche_d_license",
+      "url": "https://zenodo.org/records/5085146/files/LICENSE.pdf?download=1",
+      "filename": "LICENSE.pdf",
+      "expected_md5": "d739a00cc8259453dcd253ffa4ba5f8d"
+    }
+  ],
+  "official_urls": [
+    "https://doi.org/10.5281/zenodo.5085146",
+    "https://github.com/evidation-opensource/PSYCHE-D"
+  ]
+}

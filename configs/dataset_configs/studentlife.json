@@ -1,0 +1,31 @@
+{
+  "dataset_id": "studentlife",
+  "role": "shared_pretraining_auxiliary",
+  "raw_dir": "data_raw/studentlife",
+  "modalities": [
+    "activity",
+    "sleep",
+    "communication",
+    "phone_use",
+    "mobility",
+    "symptom_context",
+    "static"
+  ],
+  "tasks": [
+    "phq9_reg",
+    "phq9_cat"
+  ],
+  "download_targets": [
+    {
+      "name": "studentlife_rdata_mirror",
+      "url": "https://zenodo.org/records/3529253/files/dataset_rds.zip?download=1",
+      "filename": "dataset_rds.zip",
+      "expected_md5": "353ae79f157097a57bff1c004634ba1b"
+    }
+  ],
+  "official_urls": [
+    "https://studentlife.cs.dartmouth.edu/dataset/",
+    "https://github.com/Frycast/studentlife",
+    "https://doi.org/10.5281/zenodo.3529253"
+  ]
+}

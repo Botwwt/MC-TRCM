@@ -1,0 +1,32 @@
+{
+  "optimizer": "adamw",
+  "learning_rate": 0.0006,
+  "weight_decay": 0.0001,
+  "batch_size": 128,
+  "max_epochs": 20,
+  "patience": 5,
+  "min_epochs": 5,
+  "grad_clip": 5.0,
+  "use_pcgrad": true,
+  "use_uncertainty_weighting": true,
+  "dataset_priority": {
+    "deprest_cat": 1.2,
+    "psyche_d": 1.0,
+    "studentlife": 0.8,
+    "depresjon": 0.8,
+    "obf": 0.8
+  },
+  "distillation": {
+    "mode": "none",
+    "classification_weight": 0.35,
+    "regression_weight": 0.5,
+    "task_subset": [],
+    "task_weights": {}
+  },
+  "sparse_penalty": {
+    "l1": 5e-05,
+    "group": 5e-05
+  },
+  "sparse_warmup_epochs": 0,
+  "psyche_hierarchical_weight": 0.2
+}

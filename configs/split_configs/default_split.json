@@ -1,0 +1,16 @@
+{
+  "split_name": "participant_level_default",
+  "seed": 20260416,
+  "train_fraction": 0.6,
+  "valid_fraction": 0.2,
+  "test_fraction": 0.2,
+  "small_dataset_cv": {
+    "enabled_for": [
+      "studentlife",
+      "depresjon"
+    ],
+    "folds": 5
+  },
+  "strict_temporal_causality": true,
+  "allow_window_shuffle": false
+}

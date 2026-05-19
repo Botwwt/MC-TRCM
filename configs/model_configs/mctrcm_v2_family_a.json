@@ -1,0 +1,17 @@
+{
+  "model_name": "mctrcm_v2_family_a",
+  "token_dim": 64,
+  "encoder_hidden_dim": 96,
+  "transformer_layers": 2,
+  "transformer_heads": 4,
+  "transformer_ff_dim": 160,
+  "latent_dim": 96,
+  "dataset_embedding_dim": 16,
+  "task_embedding_dim": 16,
+  "concept_dim": 8,
+  "concept_hidden_dim": 48,
+  "output_refine_dim": 16,
+  "recursion_steps": 4,
+  "dropout": 0.1,
+  "activation": "gelu"
+}

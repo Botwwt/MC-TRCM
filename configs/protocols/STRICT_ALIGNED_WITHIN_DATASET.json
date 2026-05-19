@@ -1,0 +1,11 @@
+{
+  "protocol_id": "STRICT_ALIGNED_WITHIN_DATASET",
+  "scope": "within_dataset_comparisons",
+  "main_table_eligible": true,
+  "rules": {
+    "supervised_training_data": "All compared methods must use supervised labels from the target dataset train split only.",
+    "split_manifest": "All compared methods must share the same target-dataset train/valid/test participant manifest.",
+    "standardization": "All preprocessing statistics and calibration choices must be fit on training or validation data only, never on test.",
+    "model_selection": "Reference runs and strongest baselines are selected by validation primary metric, then reported on test."
+  }
+}

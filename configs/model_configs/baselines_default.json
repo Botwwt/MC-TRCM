@@ -1,0 +1,27 @@
+{
+  "stage": "stage_05_baselines",
+  "feature_prefixes": [
+    "feat_",
+    "modality_mask_",
+    "concept_mask_"
+  ],
+  "first_wave_models": [
+    "elastic_net",
+    "lightgbm",
+    "xgboost",
+    "ebm",
+    "mlp_small"
+  ],
+  "sequence_models": [
+    "gru_small",
+    "lstm_small",
+    "transformer_small"
+  ],
+  "deferred_models": [
+    "psyche_d_public_two_stage",
+    "deprest_cat_public_time_series",
+    "depresjon_public_actigraphy"
+  ],
+  "ordinal_handling": "classification_baseline_with_order_preserved_in_labels",
+  "seed": 20260417
+}
