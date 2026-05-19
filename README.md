@@ -1,7 +1,5 @@
 # MC-TRCM
 
-Code for the ICONIP 2026 submission:
-
 **MC-TRCM: Missingness-Aware Recursive Fusion for Depression Benchmarks**
 
 MC-TRCM (Modality-Conditioned Temporal Recursive Context Model) is a missingness-aware recursive fusion model for public depression-related mobile and wearable feature-view benchmarks. The current paper-facing repository keeps the five public dataset parsers used to define the benchmark framing: StudentLife, DepreST-CAT, PSYCHE-D, Depresjon, and OBF-Psychiatric. The primary reported benchmark in the ICONIP manuscript focuses on six DepreST-CAT and PSYCHE-D endpoints.
@@ -37,5 +35,3 @@ python -m src.models.run_baselines --datasets deprest_cat psyche_d
 python -m src.models.train_mctrcm_v2 --datasets deprest_cat psyche_d --model-config-path configs/model_configs/mctrcm_final.json
 python scripts/run_core_mctrcm_protocol.py --stage summarize
 ```
-
-See `REPRODUCIBILITY_NOTES.md` for the intended paper-facing workflow and the distinction between the primary DepreST-CAT/PSYCHE-D endpoints and retained descriptive dataset parsers.
