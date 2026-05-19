@@ -2,7 +2,7 @@
 
 **MC-TRCM: Missingness-Aware Recursive Fusion for Depression Benchmarks**
 
-MC-TRCM (Modality-Conditioned Temporal Recursive Context Model) is a missingness-aware recursive fusion model for public depression-related mobile and wearable feature-view benchmarks. The current paper-facing repository keeps the five public dataset parsers used to define the benchmark framing: StudentLife, DepreST-CAT, PSYCHE-D, Depresjon, and OBF-Psychiatric. The primary reported benchmark in the ICONIP manuscript focuses on six DepreST-CAT and PSYCHE-D endpoints.
+MC-TRCM (Modality-Conditioned Temporal Recursive Context Model) is a missingness-aware recursive fusion model for public depression-related mobile and wearable feature-view benchmarks. The current repository keeps the five public dataset parsers used to define the benchmark framing: StudentLife, DepreST-CAT, PSYCHE-D, Depresjon, and OBF-Psychiatric. 
 
 ## Repository Layout
 
