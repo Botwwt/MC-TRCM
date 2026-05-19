@@ -7,5 +7,3 @@ Configuration files are grouped by purpose:
 - `train_configs/`: optimizer, sampling, calibration, and early-stopping settings.
 - `split_configs/`: participant-level split defaults.
 - `protocols/`: validation-locked comparison protocol definitions.
-
-Prefer changing configuration files over hard-coding experiment choices in training scripts.
